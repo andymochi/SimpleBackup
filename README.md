@@ -30,7 +30,7 @@ After the backup is complete, a list of files in the format backup_YYYYMMDD_HHMM
 直接运行对应的exe文件，程序会自动检测系统语言。
 
 ### Linux/macOS
-chmod +x simplebackup-linux-amd64
+chmod +x simplebackup-linux-amd64  
 ./simplebackup-linux-amd64 "源目录" "目标目录"
 
 ### 文件列表
@@ -42,26 +42,26 @@ simplebackup-windows-amd64.exe
 
 Simple Incremental Backup v2.0
 
-Author: Andy Mo(Like football, live in Beijing China)
-Usage: simplebackup-windows-amd64.exe [options] <source_dir> <dest_dir>
+Author: Andy Mo(Like football, live in Beijing China)  
+Usage: simplebackup-windows-amd64.exe [options] <source_dir> <dest_dir>  
 
-Options:
-  -v    Show verbose output
-  -f    Force backup all files
-  -list string
-        File list output path
-  -exclude string
-        Directories to exclude, comma separated (default ".git,node_modules,temp")
-  -min-size int
-        Minimum file size (bytes), skip smaller files
-  -max-size int
-        Maximum file size (bytes), skip larger files
+Options:  
+  -v    Show verbose output  
+  -f    Force backup all files  
+  -list string  
+        File list output path  
+  -exclude string  
+        Directories to exclude, comma separated (default ".git,node_modules,temp")  
+  -min-size int  
+        Minimum file size (bytes), skip smaller files  
+  -max-size int  
+        Maximum file size (bytes), skip larger files  
 
-Examples:
-  simplebackup-windows-amd64.exe "C:\My Documents" "D:\Backup\Docs"
-  simplebackup-windows-amd64.exe -v "C:\Photos" "E:\Backup\Photos"
-  simplebackup-windows-amd64.exe -exclude=".git,node_modules" "C:\Projects" "F:\Backup\Projects"
-  simplebackup-windows-amd64.exe -list=backup_list.txt -min-size=1024 "C:\Music" "G:\Backup"
+Examples:  
+  simplebackup-windows-amd64.exe "C:\My Documents" "D:\Backup\Docs"  
+  simplebackup-windows-amd64.exe -v "C:\Photos" "E:\Backup\Photos"  
+  simplebackup-windows-amd64.exe -exclude=".git,node_modules" "C:\Projects" "F:\Backup\Projects"  
+  simplebackup-windows-amd64.exe -list=backup_list.txt -min-size=1024 "C:\Music" "G:\Backup"  
 
 
 ## 中文用法
